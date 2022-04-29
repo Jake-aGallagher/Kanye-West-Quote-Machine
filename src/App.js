@@ -45,7 +45,7 @@ function App() {
             deleteItem={deleteFavHandler}
           />
         )}
-        <p id="atribute">With thanks to Kanye.rest API from @ajzbc</p>
+        {quotesOrFav && <p id="atribute">With thanks to Kanye.rest API from @ajzbc</p>}
       </div>
     </Fragment>
   );
