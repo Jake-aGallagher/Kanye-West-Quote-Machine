@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kanye-West-Quote-Machine/static/css/main.920fccaa.css",
+    "main.js": "/Kanye-West-Quote-Machine/static/js/main.92e8e742.js",
+    "index.html": "/Kanye-West-Quote-Machine/index.html",
+    "main.920fccaa.css.map": "/Kanye-West-Quote-Machine/static/css/main.920fccaa.css.map",
+    "main.92e8e742.js.map": "/Kanye-West-Quote-Machine/static/js/main.92e8e742.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.920fccaa.css",
+    "static/js/main.92e8e742.js"
+  ]
+}
