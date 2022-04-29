@@ -1,0 +1,87 @@
+.navBar {
+    background-color: #4c44cf;
+    height: 8vh;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.navTitle {
+    text-align: center;
+    font-size: 30px;
+    color: #e953da;
+    height: 80%;
+    width: 98%;
+    margin-top: 1%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .navTitle {
+        font-size: 20px;
+    }
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.quoteLink {
+    background-color: #f5c1f0;  
+    color: #142f48; 
+    padding: 5px;
+    height: 3vh;
+    width: 15vw;
+    border-color: #e953da;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.quoteLink:hover {
+    background-color: #e953da;
+    box-shadow: 5px 5px 10px grey ;
+}
+
+.favLink {
+    background-color: #f5c1f0; 
+    color: #142f48;  
+    padding: 5px;
+    height: 3vh;
+    width: 15vw;
+    border-color: #e953da;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.favLink:hover {
+    background-color: #e953da;
+    box-shadow: 5px 5px 10px grey ;
+}
+
+@media screen and (max-width: 600px) {
+    .favLink {
+        font-size: 15px;
+    }
+}

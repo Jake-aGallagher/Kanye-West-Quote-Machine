@@ -1,0 +1,42 @@
+.favouriteItem {
+    background-color: #4c44cf;
+    margin-top: 30px;
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #e953da;
+    padding: 5px;
+    font-weight: 700;
+}
+
+.favouriteItemButton {
+    height: 80%;
+    width: 38vw;
+    background-color: #f5c1f0;  
+    color: #142f48;
+    border-color: #e953da;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration: none;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.favouriteItemButton:hover {
+    background-color: #e953da;
+    box-shadow: 5px 5px 10px grey ;
+}
+
+@media screen and (min-width: 1000px){
+    .favouriteItem{
+        width: 60vw;
+    }
+    .favouriteItemButton{
+        width: 20vw;
+    }
+}

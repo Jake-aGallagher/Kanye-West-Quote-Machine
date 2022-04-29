@@ -1,0 +1,1 @@
+A Kanye West Quote Machine made with React utilising the "Kanye.Rest" API 

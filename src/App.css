@@ -1,0 +1,18 @@
+.body {
+  margin-top: 8vh;
+  text-align: center;
+  background-color: #142f48;
+  min-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  width: 100vw;
+}
+
+#atribute {
+  font-size: 15px;
+  position: absolute;
+  bottom: 10px;
+}

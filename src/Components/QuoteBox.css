@@ -1,0 +1,83 @@
+.quoteBox {
+    background-color: #4c44cf;
+    height: 50vh;
+    width: 75vw;
+    display: grid;
+    grid-template-rows: 6fr 2fr 2fr;
+}
+
+.theQuote {
+    color: #e953da;
+    padding: 5%;
+    margin: 0;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1000px){
+    
+}
+
+.attributed {
+    color: #e953da;
+    font-size: 30px;
+    padding-right: 10%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.quoteBoxButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nextQuote {
+    height: 80%;
+    width: 35%;
+    background-color: #f5c1f0;  
+    color: #142f48;
+    border-color: #e953da;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.nextQuote:hover {
+    background-color: #e953da;
+    box-shadow: 5px 5px 10px grey ;
+}
+
+.favThisQuote {
+    height: 80%;
+    width: 35%;
+    background-color: #f5c1f0;  
+    color: #142f48;
+    border-color: #e953da;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.favThisQuote:hover {
+    background-color: #e953da;
+    box-shadow: 5px 5px 10px grey ;
+}
