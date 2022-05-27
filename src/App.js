@@ -9,14 +9,17 @@ function App() {
   const [quotesOrFav, setQuotesOrFav] = useState(true);
   const [favouritesList, setFavouritesList] = useState([]);
 
+  /* Changing the main screen to Quotes */
   const quotesSelector = () => {
     setQuotesOrFav(true);
   };
 
+  /* Changing the main screen to the Favourited list */
   const favsSelector = () => {
     setQuotesOrFav(false);
   };
 
+  /* Deleting the item from the Favourites List that has been selected */
   const deleteFavHandler = (recieved) => {
     setFavouritesList(() => {
       const newFavList = favouritesList.filter((i) => i !== recieved);
@@ -24,6 +27,7 @@ function App() {
     });
   };
 
+  /* Adding a quote to the Favourites List if it's not already in the list*/
   const favouritesListHandler = (theQuote) => {
     const index = favouritesList.indexOf(theQuote);
     if (index === -1) {
