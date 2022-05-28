@@ -1,1 +1,1 @@
-A Kanye West Quote Machine made with React utilising the "Kanye.Rest" API 
+A Kanye West Quote Machine made with React utilising "Axios" to call the "Kanye.Rest" API 
