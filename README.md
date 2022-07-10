@@ -5,7 +5,7 @@
 ### created using react
 
 
-#### other dependancies:
+#### other dependencies:
 * Axios
 
 #### Purpose of this app
